@@ -1,0 +1,11 @@
+package taxes;
+
+public record HealthWellBeing(double value) implements Products{
+
+	@Override
+	public void amountOfTaxes() {
+		System.out.println("The value of taxes this product is: $ " + value * 0.015);
+		
+	}
+
+}

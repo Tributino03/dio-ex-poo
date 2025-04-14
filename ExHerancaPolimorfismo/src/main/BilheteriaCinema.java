@@ -1,4 +1,5 @@
-package Main;
+package main;
+
 import java.util.ArrayList;
 import cinema.Ingresso;
 import cinema.IngressoInteiro;
